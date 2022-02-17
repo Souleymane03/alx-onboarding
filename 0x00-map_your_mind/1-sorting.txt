@@ -1,0 +1,6 @@
+function sort_asc(a, b, c)
+    l1, h1 = minmax(a, b)
+    lo, h2 = minmax(l1, c)
+    md, hi = minmax(h1, h2)
+    return lo, md, hi
+end
