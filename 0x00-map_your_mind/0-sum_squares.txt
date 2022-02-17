@@ -1,0 +1,11 @@
+function sumSquare(Argument one, Argument two){
+
+	print promt "Input two numbers"
+	Take the first number from the user
+	Take the second number from the user
+
+	sum the square of each number then store on sum
+
+	return sum
+end
+}
